@@ -15,7 +15,7 @@
 4.  라이브러리 설치 (해당 디렉토리(Chatbot) 경로 변경 후 설치) 
   
 ```c
-  npm init: package name에 원하는 이름을 적는다
+  npm init
 ```
 ```c
   npm I dialogflow
@@ -23,4 +23,41 @@
 ```c
   npm install uuid express body-parser
 ```
+
+## chatbot api.js
+1. 아래 해당 주석 위치에 내용 추가
+
+```c
+var serviceAccount = require("") // firebase json file position
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "" // firebase database url
+});
+
+```
+
+2. child 내부에 자신의 firebase uid 추가
+```c
+  db.ref('anxiety information').child('').push().set(newContact2); //myUid
+  db.ref('anxiety information for report').child('').set(newContact2); //myuid
+```
+
+3. 아래 function의 주석 위치에 정보 추가
+```c
+async function runSample(msg, projectId = '') { // project name
+  const sessionClient = new dialogflow.SessionsClient({
+    keyFilename:"" //json file position
+  });
+  const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
+  const request = {
+    session: sessionPath,
+    queryInput: {
+      text: {
+        text: msg,
+        languageCode: 'en-US',
+      },
+    },
+  };
+```
+
 
