@@ -1,7 +1,7 @@
 # 🌻WEB Dialogflow & KoGPT-2 API🌻
 
 
-<img src="https://img.shields.io/badge/platform-dialogflow-orange"> <img src="https://img.shields.io/badge/platform-nodejs-brightgreen"> 
+<img src="https://img.shields.io/badge/platform-dialogflow-orange"> <img src="https://img.shields.io/badge/platform-nodejs-brightgreen"> <img src="https://img.shields.io/badge/platform-firebase-blue"> 
 
 > Dialogflow와 web nodejs 연동법
 
@@ -23,6 +23,8 @@
 ```c
   npm install uuid express body-parser
 ```
+
+
 
 ## chatbot api.js
 1. 아래 해당 주석 위치에 내용 추가
@@ -61,3 +63,22 @@ async function runSample(msg, projectId = '') { // project name
 ```
 
 
+
+## Dialogflow Web Chatbot 실행 방법
+1. cmd에서 chatbot.js가 있는 디렉토리로 이동
+2. 다음과 같은 명령어 실행
+```c
+  node chatbot api.js
+```
+3. first_counsel.html / second_html 에 들어가서 원하는 말을 적는다
+4. 이후에 rule된 chatbot 대답을 확인할 수 있다.
+
+## KoGPT2 Web Chatbot 실행 방법 
+(KoGPT2 training 방법 https://github.com/haven-jeon/KoGPT2-chatbot 참조)
+1. answering.py 실행
+2. nodejs의 local 서버 실행
+3. deep_counsel.html에 원하는 말을 적는다.
+4. 일정 시간 후에 딥러닝 Chatbot의 대답을 확인할 할 수 있음
+
+
+![캡처](https://user-images.githubusercontent.com/63048392/114212934-5af73e00-999d-11eb-862e-5a7824e90d25.PNG)
