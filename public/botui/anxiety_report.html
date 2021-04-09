@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/main.css"/>
+
+    <link href='css/anxiety_report_css.css' rel='stylesheet' type='text/css'>
+    <title></title>
+  </head>
+
+  <body>
+    <header id="header" class="alt">
+        <div class="logo"><a href="../index.html">토닥토닥</a></div>
+
+        <div id="whenSignedOut">
+            <button id="signInBtn">SIGN IN</button>
+        </div>
+
+        <div id="whenSignedIn" hidden="true">
+            <button id="signOutBtn">SIGN OUT</button>
+        </div>
+
+    </header>
+
+    <!-- Nav -->
+
+
+    <div class="container">
+         <div>
+           <div>
+            <span style="font-size:20px; font-weight:bold;">토닥이의 불안 검사 레포트</span>
+           </div>
+           <br>
+
+           <div class="full-name">
+
+             <br>
+             <br>
+
+             <span style="font-size:20px; font-weight:bold;">STAI 불안 점수</span>
+              <br><br>
+             <span id="POINT"></span>
+
+             <br>
+             <br>
+
+
+             <span style="font-size:20px; font-weight:bold;">불안의 원인</span>
+             <br><br>
+             <span id="CAUSE1"></span>
+
+             <br>
+             <br>
+
+
+
+             <span style="font-size:20px; font-weight:bold;">결론</span>
+             <br><br>
+
+             <span id="CAUSE2"></span>
+
+             <br>
+             <br>
+
+
+
+             <span style="font-size:20px; font-weight:bold;">컬러테라피</span>
+             <br><br>
+             <span id="ColorTherapy"></span>
+             <br>
+             <span id="ColorTherapyAbout"></span>
+
+           </div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+<script>
+  var result1 = "";
+  var firebaseConfig = {
+    apiKey: "AIzaSyAvuLfFrU8j2I5n4eNUWPwS8mJ5JvCGyB4",
+    authDomain: "tdtd-project-28cc9.firebaseapp.com",
+    databaseURL: "https://tdtd-project-28cc9.firebaseio.com",
+    projectId: "tdtd-project-28cc9",
+    storageBucket: "tdtd-project-28cc9.appspot.com",
+    messagingSenderId: "640610345628",
+    appId: "1:640610345628:web:90901084f617325bc8c359",
+    measurementId: "G-LBWDPD7WRS"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  var bigOne2 = document.getElementById('POINT');
+  var dbRef2 = firebase.database().ref().child('anxiety information for report').child('SymBmxp1asWBm1GYB3Z8uUibPsD2').child('about_anxiety'); // myuid
+  dbRef2.on('value', snap => bigOne2.innerText = snap.val());
+
+
+  var bigOne3 = document.getElementById('CAUSE1');
+  var dbRef3 = firebase.database().ref().child('anxiety information for report').child('SymBmxp1asWBm1GYB3Z8uUibPsD2').child('cause1');
+  dbRef3.on('value', snap => bigOne3.innerText = snap.val());
+
+
+  var bigOne5 = document.getElementById('CAUSE2');
+  var dbRef5 = firebase.database().ref().child('anxiety information for report').child('SymBmxp1asWBm1GYB3Z8uUibPsD2').child('cause2');
+  dbRef5.on('value', snap => bigOne5.innerText = snap.val());
+
+  var bigOne6 = document.getElementById('ColorTherapy');
+  var dbRef6 = firebase.database().ref().child('anxiety information for report').child('SymBmxp1asWBm1GYB3Z8uUibPsD2').child('result_color');
+  dbRef6.on('value', snap => bigOne6.innerText = snap.val());
+
+  var bigOne7 = document.getElementById('ColorTherapyAbout');
+  var dbRef7 = firebase.database().ref().child('anxiety information for report').child('SymBmxp1asWBm1GYB3Z8uUibPsD2').child('result_explain');
+  dbRef7.on('value', snap => bigOne7.innerText = snap.val());
+
+</script>
+  </body>
+</html>

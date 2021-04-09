@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="290" height="30">
+<path style="fill:#000000; stroke:none;" d="M0 0L0 2L175 1L158 0L123 0L0 0z"/>
+<path style="fill:#5c592d; stroke:none;" d="M175 0L175 1L197 1L175 0z"/>
+<path style="fill:#896b4c; stroke:none;" d="M197 0L197 1L237 1C226.488 -3.41101 208.434 0 197 0z"/>
+<path style="fill:#e18789; stroke:none;" d="M237 0L237 1L273 1C263.44 -3.01138 247.387 0 237 0z"/>
+<path style="fill:#ff999b; stroke:none;" d="M220 1L220 6L284 6L284 0L220 1z"/>
+<path style="fill:#804c4d; stroke:none;" d="M284 0L284 6L285 6L284 0z"/>
+<path style="fill:#000000; stroke:none;" d="M285 0L285 6L0 6L0 30L290 30L290 0L285 0z"/>
+<path style="fill:#1c0838; stroke:none;" d="M5 1L5 2L42 2C32.2022 -2.11134 15.6488 1 5 1z"/>
+<path style="fill:#3c4872; stroke:none;" d="M42 1L42 2L67 2L42 1z"/>
+<path style="fill:#6ca291; stroke:none;" d="M67 1L67 2L103 2C93.4404 -2.01138 77.3869 1 67 1z"/>
+<path style="fill:#bdff61; stroke:none;" d="M103 1L103 2L117 2L117 6L145 6L145 1L103 1z"/>
+<path style="fill:#dfff70; stroke:none;" d="M145 1L145 6L176 6L176 1L145 1z"/>
+<path style="fill:#fcf87d; stroke:none;" d="M175 2L175 5L196 6L196 1L175 2z"/>
+<path style="fill:#ffd28a; stroke:none;" d="M196 1L196 6L220 6L220 1L196 1z"/>
+<path style="fill:#b600dc; stroke:none;" d="M0 2L0 6L11 5L11 2L0 2z"/>
+<path style="fill:#9b18ec; stroke:none;" d="M10 3L10 6L19 6L19 2L10 3z"/>
+<path style="fill:#822bfd; stroke:none;" d="M19 2L19 6L41 6L41 2L19 2z"/>
+<path style="fill:#7b6eff; stroke:none;" d="M41 2L41 6L56 6L56 2L41 2z"/>
+<path style="fill:#889fff; stroke:none;" d="M56 2L56 6L71 6L71 2L56 2z"/>
+<path style="fill:#9de8ff; stroke:none;" d="M71 2L71 6L87 6L87 2L71 2z"/>
+<path style="fill:#a3f2d6; stroke:none;" d="M87 2L87 6L100 6L100 2L87 2z"/>
+<path style="fill:#a7faac; stroke:none;" d="M100 2L100 6L117 6L117 2L100 2z"/>
+<path style="fill:#d445ff; stroke:none;" d="M0 17L0 21L1 21L0 17z"/>
+<path style="fill:#8081ff; stroke:none;" d="M58 17L58 21L59 21L58 17z"/>
+<path style="fill:#a9fda0; stroke:none;" d="M116 17L116 21L117 21L116 17z"/>
+<path style="fill:#e3fd71; stroke:none;" d="M174 17L174 21L175 21L174 17z"/>
+<path style="fill:#ffb593; stroke:none;" d="M229 17L229 21L230 21L229 17z"/>
+<path style="fill:#ff999b; stroke:none;" d="M284 17L284 21L285 21L284 17z"/>
+</svg>

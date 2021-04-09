@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="google-signin-client_id"
+          content="765238524312-bs0p95qajpf159ffb93b25ggkaq06lfj.apps.googleusercontent.com">
+
+    <title>토닥이 불안 상담하기</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/main.css"/>
+
+</head>
+
+<body>
+<!-- Header -->
+<header id="header" class="alt">
+    <div class="logo"><a href="../index.html">토닥토닥</a></div>
+
+    <div id="whenSignedOut">
+        <button id="signInBtn">SIGN IN</button>
+    </div>
+
+    <div id="whenSignedIn" hidden="true">
+        <button id="signOutBtn">SIGN OUT</button>
+    </div>
+
+    <a href="#menu" style="background: #5a5a5a!important;"><span>Menu</span></a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+  <ul class="links">
+      <li><a><h1 style="font-size:20px;">토닥이의 불안 검사</h1></a></li>
+
+      <li><a>1. 토닥이 불안 정도 검사</a></li>
+      <li><a>2. 토닥이 불안 원인 검사</a></li>
+      <li><a>3. 토닥이 불안 상담소</a></li>
+      <li><a  href="anxiety_report.html" style="font-weight:bold;">4. 토닥토닥 레포트</a></li>
+    </ul>
+
+    <ul class="links">
+      <li><a><h1 style="font-size:20px;">토닥이의 다른 곳</h1></a></li>
+
+      <li><a href="../elements.html">Community(Coming soon)</a></li>
+      <li><a href="../elements.html">My page</a></li>
+  </ul>
+</nav>
+
+<div class="chat" style="margin-top: 2%">
+    <div class="chat-title">
+        <h1>후니베어</h1>
+        <h2>i am customer support chat bot</h2>
+        <figure class="avatar">
+            <img src="css/bot.png"/></figure>
+    </div>
+    <div class="messages">
+        <div class="messages-content"></div>
+
+    </div>
+    <form class="message-box" id="mymsg" method="POST" style="margin: 0 0 0 0!important;">
+        <input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message...">
+        <div>
+            <i class="fas fa-microphone" id="start-record-btn"
+               style="position: absolute; z-index: 1; top: 9px; margin-left: 88%;"></i>
+            <button type="submit" class="message-submit">Send</button>
+        </div>
+    </form>
+    <h3 class="no-browser-support" hidden>Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo
+        In Google Chrome.</h3>
+</div>
+</body>
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.scrolly.min.js"></script>
+<script src="../assets/js/jquery.scrollex.min.js"></script>
+<script src="../assets/js/skel.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyAvuLfFrU8j2I5n4eNUWPwS8mJ5JvCGyB4",
+        authDomain: "tdtd-project-28cc9.firebaseapp.com",
+        databaseURL: "https://tdtd-project-28cc9.firebaseio.com",
+        projectId: "tdtd-project-28cc9",
+        storageBucket: "tdtd-project-28cc9.appspot.com",
+        messagingSenderId: "640610345628",
+        appId: "1:640610345628:web:20a1a100cd4e0a88c8c359",
+        measurementId: "G-XFWJBSBSC2"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+
+<script src="../main_app.js" defer></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js'></script>
+<script src="js/deep1.js"></script>
+
+</html>

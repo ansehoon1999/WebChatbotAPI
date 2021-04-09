@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="40" height="20">
+<path style="fill:#000000; stroke:none;" d="M0 0L0 20L40 20L40 10L28 18L32 11L4 11L4 7L32 7L28 0L0 0z"/>
+<path style="fill:#cbc7c7; stroke:none;" d="M28 0L32 7L4 7L4 11L32 11L28 18C41.0438 16.996 41.0061 1.02447 28 0z"/>
+<path style="fill:#000000; stroke:none;" d="M33 0L40 8L40 0L33 0z"/>
+</svg>

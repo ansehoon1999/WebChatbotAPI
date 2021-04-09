@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="258" height="19">
+<path style="fill:#000000; stroke:none;" d="M0 0L0 2L99 2L99 0L0 0z"/>
+<path style="fill:#f5d460; stroke:none;" d="M99 0L99 3L1 3L1 4L99 4L99 7C107.041 6.73596 107.041 0.264036 99 0z"/>
+<path style="fill:#000000; stroke:none;" d="M105 0L105 1C119.425 5.26375 138.951 2 154 2L258 2L258 0L105 0z"/>
+<path style="fill:#e7d183; stroke:none;" d="M0 2L0 5L99 5L99 4L1 4L1 3L99 3L69 2L0 2z"/>
+<path style="fill:#fffdf5; stroke:none;" d="M101 2L101 5L104 5L104 2L101 2z"/>
+<path style="fill:#cdcdcd; stroke:none;" d="M106 2L106 5L258 5L258 2L106 2z"/>
+<path style="fill:#000000; stroke:none;" d="M0 5L1 19L51 19L51 14L52 14L52 19L103 19L103 14L104 14L104 19L154 19L154 14L155 14L155 19L206 19L206 14L207 14L207 19L257 19L258 5L0 5z"/>
+<path style="fill:#f5d460; stroke:none;" d="M0 14L0 19L1 19L0 14M51 14L51 19L52 19L51 14M103 14L103 19L104 19L103 14z"/>
+<path style="fill:#cecece; stroke:none;" d="M154 14L154 19L155 19L154 14M206 14L206 19L207 19L206 14M257 14L257 19L258 19L257 14z"/>
+</svg>

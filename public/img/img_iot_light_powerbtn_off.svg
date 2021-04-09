@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="50" height="50">
+<path style="fill:#000000; stroke:none;" d="M0 0L0 50L50 50L50 0L0 0z"/>
+<path style="fill:#bfbfbf; stroke:none;" d="M21 6L21 7L24 7L21 6z"/>
+<path style="fill:#ffffff; stroke:none;" d="M24 6.53009C3.87385 8.28881 5.69589 38.6221 26 37.3897C46.1059 36.1692 44.07 4.77628 24 6.53009z"/>
+<path style="fill:#9f9f9f; stroke:none;" d="M27.6667 6.33333L28.3333 6.66667L27.6667 6.33333M18 7L19 8L18 7M31 7L32 8L31 7z"/>
+<path style="fill:#8f8f8f; stroke:none;" d="M16 8L17 9L16 8z"/>
+<path style="fill:#7f7f80; stroke:none;" d="M33 8L34 9L33 8z"/>
+<path style="fill:#909091; stroke:none;" d="M11 13L12 14L11 13z"/>
+<path style="fill:#b5b5b5; stroke:none;" d="M23 13L23 23L26 23L26 13L23 13z"/>
+<path style="fill:#808081; stroke:none;" d="M38 13L39 14L38 13z"/>
+<path style="fill:#a0a0a1; stroke:none;" d="M10 15L11 16L10 15z"/>
+<path style="fill:#b5b5b5; stroke:none;" d="M28 15C28.9747 17.7735 31.0133 21.0243 29.2886 23.8873C26.8799 27.8857 21.2349 27.655 19.8711 22.9552C19.143 20.446 20.5023 17.4586 21 15C12.2646 19.5841 17.3193 32.0859 26.9954 29.6813C34.2657 27.8746 35.1002 17.2427 28 15z"/>
+<path style="fill:#a0a0a1; stroke:none;" d="M39 15L40 16L39 15z"/>
+<path style="fill:#c0c0c1; stroke:none;" d="M9.33333 18.6667L9.66667 19.3333L9.33333 18.6667M40 18L40 21L41 21L40 18M40 23L40 26L41 26L40 23z"/>
+<path style="fill:#a0a0a1; stroke:none;" d="M9.33333 24.6667L9.66667 25.3333L9.33333 24.6667z"/>
+<path style="fill:#a0a1a2; stroke:none;" d="M10 28L11 29L10 28M39 28L40 29L39 28z"/>
+<path style="fill:#808183; stroke:none;" d="M11 30L12 31L11 30z"/>
+<path style="fill:#dadada; stroke:none;" d="M22 30L22 31L27 31L22 30z"/>
+<path style="fill:#808183; stroke:none;" d="M38 30L39 31L38 30z"/>
+<path style="fill:#808185; stroke:none;" d="M16 35L17 36L16 35M33 35L34 36L33 35z"/>
+<path style="fill:#a0a1a3; stroke:none;" d="M18 36L19 37L18 36M31 36L32 37L31 36z"/>
+<path style="fill:#d0d0d1; stroke:none;" d="M20 37L20 38L24 38L20 37z"/>
+<path style="fill:#c0c0c2; stroke:none;" d="M26 37L26 38L29 38L26 37z"/>
+</svg>

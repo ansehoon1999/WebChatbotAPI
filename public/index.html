@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>TDTD Project</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google-signin-client_id"
+          content="765238524312-bs0p95qajpf159ffb93b25ggkaq06lfj.apps.googleusercontent.com">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body>
+
+<!-- Header -->
+<header id="header" class="alt">
+    <div class="logo"><a href="index.html">토닥토닥</a></div>
+
+    <div id="whenSignedOut">
+        <button id="signInBtn">SIGN IN</button>
+    </div>
+
+    <div id="whenSignedIn" hidden="true">
+        <button id="signOutBtn">SIGN OUT</button>
+    </div>
+
+    <a href="#menu"><span>Menu</span></a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+  <ul class="links">
+      <li><a><h1 style="font-size:20px;">토닥이의 불안 검사</h1></a></li>
+
+      <li><a href="botui/first_counsel.html" style="font-weight:bold;">1. 토닥이 불안 정도 검사</a></li>
+      <li><a>2. 토닥이 불안 원인 검사</a></li>
+      <li><a>3. 토닥이 불안 상담소</a></li>
+      <li><a>4. 토닥토닥 레포트</a></li>
+    </ul>
+
+    <ul class="links">
+      <li><a><h1 style="font-size:20px;">토닥이의 다른 곳</h1></a></li>
+
+      <li><a href="../elements.html">Community(Coming soon)</a></li>
+      <li><a href="../elements.html">My page</a></li>
+  </ul>
+</nav>
+
+<section id="banner" class="bg-img" data-bg="img_td_banner.svg">
+    <div class="inner">
+        <header>
+            <h1>TDTD Project</h1>
+        </header>
+    </div>
+    <a href="#one" class="more">Learn More</a>
+</section>
+
+<!-- One -->
+<section id="one" class="wrapper post bg-img" data-bg="img_main.svg">
+    <div class="inner">
+        <article class="box">
+            <header>
+                <h2>토닥토닥 프로젝트란?</h2>
+            </header>
+            <div class="content">
+                <p>저희 토닥토닥 프로젝트에서는 불안 장애를 겪고 있는 사람들을 위해 감정 관리를 도와주는 챗봇 시스템과 <br> 시각과 청각을 통해 안정감을 주는 컬러 테라피, 음악 추천 프로그램을
+                    제공합니다.</p>
+                <p>또한, 나와 비슷한 불안 정도를 가진 사람들의 행동, 사례, 이야기를 들어볼 수 있는 집단 지성 커뮤니티 기능을 제공합니다.</p>
+            </div>
+            <footer>
+                <a href="generic.html" class="button alt">Learn More</a>
+            </footer>
+        </article>
+    </div>
+    <a href="#two" class="more">Learn More</a>
+</section>
+
+<!-- Two -->
+<section id="two" class="wrapper post bg-img" data-bg="img_main.svg">
+    <div class="inner">
+        <article class="box">
+            <header>
+                <h2>토닥토닥 프로젝트란?</h2>
+            </header>
+            <div class="content">
+                <p>저희 토닥토닥 프로젝트에서는 불안 장애를 겪고 있는 사람들을 위해 감정 관리를 도와주는 챗봇 시스템과 시각과 청각을 통해 안정감을 주는 컬러 테라피, 음악 추천 프로그램을
+                    제공합니다.</p>
+                <p>또한, 나와 비슷한 불안 정도를 가진 사람들의 행동, 사례, 이야기를 들어볼 수 있는 집단 지성 커뮤니티 기능을 제공합니다.</p>
+            </div>
+            <footer>
+                <a href="generic.html" class="button alt">Learn More</a>
+            </footer>
+        </article>
+    </div>
+    <a href="#three" class="more">Learn More</a>
+</section>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+</body>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyAvuLfFrU8j2I5n4eNUWPwS8mJ5JvCGyB4",
+        authDomain: "tdtd-project-28cc9.firebaseapp.com",
+        databaseURL: "https://tdtd-project-28cc9.firebaseio.com",
+        projectId: "tdtd-project-28cc9",
+        storageBucket: "tdtd-project-28cc9.appspot.com",
+        messagingSenderId: "640610345628",
+        appId: "1:640610345628:web:20a1a100cd4e0a88c8c359",
+        measurementId: "G-XFWJBSBSC2"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+
+<script src="main_app.js" defer></script>
+
+
+</body>
+</html>
