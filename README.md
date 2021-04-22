@@ -80,9 +80,9 @@ async function runSample(msg, projectId = '') { // project name
 3. deep_counsel.html에 원하는 말을 적는다.
 4. 일정 시간 후에 딥러닝 Chatbot의 대답을 확인할 할 수 있음
 
-
-## Training Method
-1. AI Hub(https://aihub.or.kr/) 웰니스 대화 데이터 셋 다운로드
-2. 
+※ 데이터 셋 종류
+- AI Hub(https://aihub.or.kr/) 웰니스 대화 데이터 셋  
+- ChatbotData(https://github.com/songys/Chatbot_data) 대화 데이터 셋
+- AI Hub(https://aihub.or.kr/) 감성 말뭉치 데이터 셋 (전처리) 
 
 ![캡처](https://user-images.githubusercontent.com/63048392/114212934-5af73e00-999d-11eb-862e-5a7824e90d25.PNG)
