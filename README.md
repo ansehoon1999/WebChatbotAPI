@@ -7,6 +7,13 @@
 
 > KoGPT-2와 web nodejs 연동법
 
+## Summary
+
+![final](https://user-images.githubusercontent.com/63048392/115654781-cf9e8500-a36c-11eb-96b6-550dc4d99f2e.png)
+
+이 안드로이드 어플리케이션은 불안 장애를 막기 위해 개발된 웹 기반 API입니다. 
+불안 정도 검사, 불안 원인 검사, 딥러닝 기반 챗봇과의 자유로운 대화를 통해 불안한 감정을 확인하고 치유할 수 있습니다.
+
 ## requirement
 
 1.	Dialog flow를 통해 정해진 질의 응답을 작성 (WIKI 참조)
