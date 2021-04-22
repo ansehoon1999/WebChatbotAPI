@@ -14,6 +14,12 @@
 이 안드로이드 어플리케이션은 불안 장애를 막기 위해 개발된 웹 기반 API입니다. 
 불안 정도 검사, 불안 원인 검사, 딥러닝 기반 챗봇과의 자유로운 대화를 통해 불안한 감정을 확인하고 치유할 수 있습니다.
 
+
+## Demo App
+
+![캡처](https://user-images.githubusercontent.com/63048392/114212934-5af73e00-999d-11eb-862e-5a7824e90d25.PNG)
+
+
 ## requirement
 
 1.	Dialog flow를 통해 정해진 질의 응답을 작성 (WIKI 참조)
@@ -92,4 +98,3 @@ async function runSample(msg, projectId = '') { // project name
 - ChatbotData(https://github.com/songys/Chatbot_data) 대화 데이터 셋
 - AI Hub(https://aihub.or.kr/) 감성 말뭉치 데이터 셋 (전처리) 
 
-![캡처](https://user-images.githubusercontent.com/63048392/114212934-5af73e00-999d-11eb-862e-5a7824e90d25.PNG)
