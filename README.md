@@ -1,4 +1,4 @@
-# 🌻WEB Dialogflow & KoGPT-2 API🌻
+# 토닥토닥 프로젝트 (Web Ver.)
 
 
 <img src="https://img.shields.io/badge/platform-dialogflow-orange"> <img src="https://img.shields.io/badge/platform-nodejs-brightgreen"> <img src="https://img.shields.io/badge/platform-firebase-blue"> 
