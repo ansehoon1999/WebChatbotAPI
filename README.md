@@ -1,4 +1,4 @@
-# 토닥토닥 프로젝트 (Web Ver.)
+# 🏆졸업작품 우수 포스터상 - 토닥토닥 프로젝트(웹)
 
 
 <img src="https://img.shields.io/badge/platform-dialogflow-orange"> <img src="https://img.shields.io/badge/platform-nodejs-brightgreen"> <img src="https://img.shields.io/badge/platform-firebase-blue"> 
